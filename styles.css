@@ -1,0 +1,126 @@
+nav {
+    background-color: aqua;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    border: 2px solid blueviolet;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: blueviolet;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+}
+nav a:hover {
+    color: black;
+    background-color: blueviolet;
+}
+body {
+    background-color: blanchedalmond;
+    margin-right: 0;
+    margin-right: 0;
+}
+.product-container {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aquamarine;
+    padding: 10px;
+}
+img {
+    width: 400px;
+}
+.product-image .promo-code {
+    background-color: lightblue;
+    border: 2px solid blue;
+    text-align: center;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: flex;
+}
+.product-detail {
+    margin: 10px;
+}
+.related-product {
+    justify-content: center;
+    border: 2px solid blue;
+    margin: 3px;
+    background-color: pink;
+    position: relative;
+}
+.related-product img {
+    width: 180px;
+    padding: 5px;
+    height: 180px;
+    object-fit: fill;
+}
+.related-product-name {
+    background-color: lightgray;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 10px;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+}
+.related-product:hover {
+    background-color: black;
+}
+.related-product:hover .related-product-name {
+    visibility: visible;
+    width: 80%;
+}
+footer {
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid blueviolet;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: Arial, sans-serif;
+}
+.about-image img {
+    width: 750px;
+}
+.about {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+.about-image {
+    position: relative;
+}
+.image-description {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 20px;
+}
+.about-image:hover .image-description {
+    visibility: visible;
+    color: white;
+}
+.team-member img {
+    width: 250px;
+    margin: 3px;
+    border: 3px solid lavender;
+    height: 250px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px;
+    border-radius: 100%;
+}
+.team-member {
+    text-align: center;
+}
